@@ -33,7 +33,7 @@ bool writeMatBinary(std::ofstream& ofs, const cv::Mat& out_mat)
 */
 bool SaveMatBinary(const std::string& filename, const cv::Mat& output){
 	std::ofstream ofs(filename, std::ios::binary);
-	return WriteMatBinary(ofs, output);
+	return writeMatBinary(ofs, output);
 }
 
 
@@ -71,5 +71,5 @@ bool readMatBinary(std::ifstream& ifs, cv::Mat& in_mat)
 */
 bool LoadMatBinary(const std::string& filename, cv::Mat& output){
 	std::ifstream ifs(filename, std::ios::binary);
-	return ReadMatBinary(ifs, output);
+	return readMatBinary(ifs, output);
 }
