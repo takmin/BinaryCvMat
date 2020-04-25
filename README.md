@@ -1,3 +1,8 @@
+### Note
+I created new version of BinaryCvMat.  Please use the following to save not only cv::Mat but cv::KeyPoint, cv::Size, and cv::Point as binary. 
+https://github.com/takmin/SaveBinaryOpenCV
+
+
 BinaryCvMat
 ===========
 
